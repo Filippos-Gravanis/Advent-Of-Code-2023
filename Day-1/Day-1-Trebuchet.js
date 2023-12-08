@@ -72,7 +72,7 @@ async function Trebuchet() {
     for (let index = 0; index < wordList.length; index++) {
         sum += parseInt(findDigit(wordList[index], "first") + findDigit(wordList[index], "last"))
     }
-    console.log(sum)
+    
 }
 
 Trebuchet()
